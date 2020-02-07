@@ -48,3 +48,21 @@ function DNAtoRNA(dna) {
   return rna;
 }
 
+//Find Maximum and Minimum Values of a List
+//https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
+var min = function(list){
+  var x;  
+  x =  list.reduce((a, b) => a < b ? a: b);
+  
+  return x;
+}
+
+
+var max = function(list){
+    
+   var x;  
+   y =  list.reduce((a, b) => a > b ? a: b);
+   
+   return y;
+ }
+
